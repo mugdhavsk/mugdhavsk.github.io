@@ -1,0 +1,15 @@
+h1{
+  color: rgb(0,128,128);
+      font-family: 'Lobster';
+}
+h2 {
+  color : rgb(0,128,128);
+    font-family: '"Times New Roman", Times, serif;'
+}
+button {
+  color : rgb(0,128,128);
+    font-family: '"Times New Roman", Times, serif;'
+}
+body {
+  background-image: url("b8.jpg");
+}
