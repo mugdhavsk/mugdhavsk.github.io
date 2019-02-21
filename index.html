@@ -21,9 +21,37 @@
   <button class="tablinks" onclick="openCity(event, 'places to visit')">places to visit</button>
   <button class="tablinks" onclick="openCity(event, 'tickets')">ticketss</button>
   <button class="tablinks" onclick="openCity(event, 'information centres')">information centres</button>
+  <button class="tablinks" onclick="openCity(event, 'events')">events</button>
 </div>
-<p> I'm hosted with <strong> GitHub </strong>
-Pages. </p>
+<div class='row'>
+    <div class="col-sm-8">
+<p>Book an event <strong> now </strong>
+</div>
+ </p>
+  <button class="btn btn-success" type="submit">let's go</button>
+
+  <div class="w3-content w3-section" style="max-width:500px">
+    <img class="mySlides" src="london.jpg" style="width:100%">
+    <img class="mySlides" src="london2.jpg" style="width:100%">
+    <img class="mySlides" src="london2.jpg" style="width:100%">
+  </div>
+
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 3 seconds
+  }
+  </script>
 </center>
 </body>
 </html>
