@@ -76,8 +76,31 @@
   <p>Book an event <strong> now </strong>
   <button class="btn btn-success" type="submit">let's go</button>
   </div>
+<<<<<<< HEAD
 </div>
 </center>
+=======
+
+
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 3 seconds
+  }
+  </script>
+>>>>>>> aa606ccdcb9fa77bcbadc4ef6cbf2775fe781612
+
+  <p>Do you want to view <a href="PAGETWO/PAGETWO.html">page 2</a> ?</p>
 
 <a href="https://www.instagram.com/rishikalikestosing/">
    <button>Visit Rishika!</button>
