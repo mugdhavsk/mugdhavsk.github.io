@@ -1,1 +1,31 @@
-theme: jekyll-theme-cayman
+
+CSS
+.img-polaroid{
+BORDER
+padding: 4px;
+border: 1px solid rgba(0,0,0)
+==============================
+==============================
+BOOTSTRAP
+A skeleton of code providing generic functionality
+extend own code
+override framework code with our own
+frame work
+responsive
+cross browser
+=============================
+=============================
+CONTENT DELIVERY NETWORD (CDN)
+PRO:
+CDN = SERBER CONTAINING BOOTSRAP FILES
+NO NEED TO DOWNLOAD
+ADD A LINK TO THE CDN AND DONE
+==============================
+==============================
+
+==============================
+CONS
+RISKY
+WEBISTE LAYOUT WILL BREAK IF FILES ARE NO CLONGER ON THE CDN
+CONNECTION WITH CDN FAILS
+==============================
