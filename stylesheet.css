@@ -8,7 +8,8 @@ h2 {
 }
 button {
   color : rgb(0,128,128);
-    font-family: '"Times New Roman", Times, serif;'
+    border: 1px solid blue;
+    font-family: "monospace"
 }
 body {
   background-image: url("b8.jpg");
@@ -16,62 +17,40 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-  .navbar {
-  overflow: hidden;
-  background-color: #333;
+p{
+  font-family: monospace;
+  color: rgb(25,25,112);
+  font-size: 25px;
+}
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top:30px;
 }
 
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+.main-nav li {
+  display: inline-block;
+}
+.main-nav li a {
+  color: rgb(25,25,112);
+  font-style: oblique;
   text-decoration: none;
+  padding: 5px 20px;
+  font-family: monospace;
+  font-size: 20px;
 }
-
-.dropdown {
+.main-nav li.active a {
+  border: 1px solid blue;
+}
+.main-nav li a=hover {
+  border: 1px solid blue;
+}
+.logo img {
+  width: 300px;
+  height: auto;
   float: left;
-  overflow: hidden;
 }
-
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
+.row {
+  max-width:1200px;
+  margin: auto;
 }
